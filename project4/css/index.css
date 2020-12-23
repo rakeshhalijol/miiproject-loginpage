@@ -1,0 +1,146 @@
+*:focus{
+    outline: none;
+}
+.move marquee{
+    background-color: yellow;
+    box-shadow: 30px 30px 50px black;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 50px;
+    color: blueviolet;
+    margin-top: 1px;
+
+}
+.box3{
+    display: block;
+    margin: 174px 535px;
+    height: 405px;
+    width: 480px;
+    background-color: rgb(248, 245, 245);
+    border-radius: 50px;
+    border: 2px solid purple;
+    box-shadow: 40px 40px 50px black;
+}
+
+.container{
+    display: block;
+    height: 130vh;
+    width: 100vw;
+    
+    background-image: url('../login/img2.jpeg');
+    opacity: 0.9;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:100%;
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+  }
+  .border{
+      background-color: white;
+  }
+.image{
+    height: 120px;
+    background-color: palegreen;
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid purple;
+    position: absolute;
+    top: 270px;
+    left: 720px;
+}
+.image img{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+
+}
+.detials{
+    
+    position: absolute;
+    top: 420px;
+    left: 596px;
+    
+}
+.login1 i{
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    color: green;
+    
+    
+}
+.login1 input{
+    padding: 10px 35px;
+    font-size: 25px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid purple;
+    margin: 2px;
+    text-align: center;
+    
+}
+
+.login2 i{
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+    color: red;
+    text-align: center;
+    border-radius:5px;
+    
+}
+.login2 input{
+    padding: 10px 35px;
+    font-size: 25px;
+    margin: 2px;
+    position: relative;
+    left: -2px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid purple;
+    text-align: center;
+    
+}
+.box1 button{
+    font-size: 25px;
+    position: absolute;
+    top: 593px;
+    left: 740px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    background-color:  purple;
+    color: white;
+    border: none;
+}
+.box1 button:hover{
+    background-color: rgb(48, 1, 48);
+    cursor: pointer;
+}
+.detial2 a{
+    position: absolute;
+    top: 560px;
+    left: 860px;
+    font-size: 20px;
+    color: purple;
+    text-decoration: none;
+}
+.quote{
+    font-size: 50px;
+    color: black;
+}
